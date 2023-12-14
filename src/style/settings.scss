@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+:root {
+  --main-bg_color: #171625;
+  --primary-color: #262a65;
+  --solid-color: #5b5bd6;
+  --text-color: #e0dffe;
+  --border-color: #5958b1;
+}
+li {
+  list-style: none;
+}
+body {
+  background: var(--main-bg_color);
+}
