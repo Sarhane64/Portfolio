@@ -1,1 +1,30 @@
+.first-page {
+  height: 65vh;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  .presentation-container {
+    width: 100%;
 
+    .container-of-all {
+      display: grid;
+      grid-template-columns: 70% 30%;
+      width: 100%;
+
+      .presentation-p {
+        display: flex;
+        flex-direction: column;
+        padding-left: 30px;
+        gap: 10px;
+        h1 {
+          font-size: 3rem;
+        }
+      }
+    }
+    .picture-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}

@@ -8,7 +8,7 @@ function ContainerProjects() {
     <div className="container-with-project">
       <div className="first-container-of-my-project">
         <Projet
-          icone="test"
+          icone={"test"}
           link={phrase}
           title={testing}
           text={"text"}
@@ -18,7 +18,7 @@ function ContainerProjects() {
         />
         <div className="second-container-of-my-project">
           <Projet
-            icone="test"
+            icone={"test"}
             link={phrase}
             title={testing}
             text={"text"}
@@ -27,17 +27,17 @@ function ContainerProjects() {
             techno3={"text"}
           />
         </div>
-      </div>
-      <div className="third-container-of-my-project">
-        <Projet
-          icone="test"
-          link={phrase}
-          title={testing}
-          text={"text"}
-          techno1={"text"}
-          techno2={"text"}
-          techno3={"text"}
-        />
+        <div className="third-container-of-my-project">
+          <Projet
+            icone={"test"}
+            link={phrase}
+            title={testing}
+            text={"text"}
+            techno1={"text"}
+            techno2={"text"}
+            techno3={"text"}
+          />
+        </div>
       </div>
     </div>
   );

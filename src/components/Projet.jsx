@@ -4,8 +4,8 @@ function Projet({ icone, link, title, text, techno1, techno2, techno3 }) {
     <div className="projects-container">
       <div className="first-project">
         <div className="first-project-top-container">
+          <a href={link}>icone </a>
           <span>{icone}</span>
-          <a href={link}>icone</a>
         </div>
         <div className="main-container">
           <h3>{title}</h3>

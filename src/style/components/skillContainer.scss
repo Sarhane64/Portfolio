@@ -1,0 +1,16 @@
+.skills-containers {
+  display: flex;
+  padding: 15px 75px;
+  align-items: center;
+
+  .skills-container {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 50%;
+    width: 39%;
+    text-align: center;
+    li {
+      padding-top: 1rem;
+    }
+  }
+}

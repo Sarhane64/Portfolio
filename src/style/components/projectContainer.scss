@@ -1,0 +1,18 @@
+.project-containers {
+  h1 {
+    text-align: center;
+    padding: 55px 35px;
+  }
+  .container-with-project {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    .first-container-of-my-project {
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+      text-align: center;
+    }
+  }
+}
