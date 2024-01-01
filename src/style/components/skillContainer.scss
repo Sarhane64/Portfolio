@@ -1,16 +1,65 @@
-.skills-containers {
+.title-skill {
   display: flex;
-  padding: 15px 75px;
+  justify-content: center;
   align-items: center;
+  padding: 55px 0;
+  font-weight: 900;
+  font-size: 3.8rem;
+  .title-skills-h1 {
+    background: linear-gradient(120deg, var(--solid-color), var(--text-color));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+  }
+}
 
+.skills-container {
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.5rem;
+  align-items: flex-start;
+  .skill {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    .skillLiContainer {
+      display: flex;
+      gap: 15px;
+      flex-direction: column;
+      width: 120px;
+      justify-content: space-between;
+      li {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row-reverse;
+      }
+      .expressContainer {
+        width: 130px;
+        display: flex;
+        align-items: center;
+      }
+      .expressContainer > span {
+        margin-top: 6px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 638px) {
   .skills-container {
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    gap: 50%;
-    width: 39%;
-    text-align: center;
-    li {
-      padding-top: 1rem;
+    display: block;
+    .skill {
+      flex-wrap: wrap;
+      align-items: center;
+      margin-bottom: 30px;
+      gap: 10px;
+      .skillLiContainer {
+        width: 200px;
+        gap: 20pxpx;
+      }
     }
   }
 }

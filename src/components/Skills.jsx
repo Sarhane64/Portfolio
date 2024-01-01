@@ -1,25 +1,68 @@
 function Skills() {
   return (
-    <div className="skills-container">
-      <div className="design">
-        <h3>Design</h3>
-        <li>Sass</li>
-        <li>Figma</li>
+    <>
+      <h1 className="title-skill">
+        <span className="title-skills-h1">Skills</span>
+      </h1>
+      <div className="skills-container">
+        <div className="skill">
+          <h3>Design</h3>
+          <div className="skillLiContainer">
+            <li>
+              <span>
+                <img width={40} src="/sass.svg" alt="sass" />
+              </span>
+              Sass
+            </li>
+            <li>
+              <span>
+                <img width={40} src="/figma.svg" alt="figma" />
+              </span>
+              Figma
+            </li>
+          </div>
+        </div>
+        <div className="skill">
+          <h3>Frontend</h3>
+          <div className="skillLiContainer">
+            <li>
+              <span>
+                <img width={40} src="/reactjs.svg" alt="react" />
+              </span>
+              React
+            </li>
+          </div>
+        </div>
+        <div className="skill">
+          <h3>Backend</h3>
+          <div className="skillLiContainer">
+            <li>
+              <span>
+                <img width={40} src="/mysql.svg" alt="sql" />
+              </span>
+              Sql
+            </li>
+          </div>
+        </div>
+        <div className="skill">
+          <h3>Other</h3>
+          <div className="skillLiContainer">
+            <li>
+              <span>
+                <img width={40} src="/github.svg" alt="github" />
+              </span>{" "}
+              git & github
+            </li>
+            <li>
+              <span>
+                <img width={40} src="/nodejs.svg" alt="node" />
+              </span>{" "}
+              Node
+            </li>
+          </div>
+        </div>
       </div>
-      <div className="front-end">
-        <h3>Frontend</h3>
-        <li>React</li>
-      </div>
-      <div className="back-end">
-        <h3>Backend</h3>
-        <li>Sql</li>
-      </div>
-      <div className="Other">
-        <h3>Other</h3>
-        <li>git & github</li>
-        <li>node</li>
-      </div>
-    </div>
+    </>
   );
 }
 

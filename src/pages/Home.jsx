@@ -13,12 +13,17 @@ function Home() {
         <Skills />
       </div>
       <div className="project-containers">
-        <h1>project</h1>
-        <div>
+        <h1>
+          {" "}
+          <span className="title-skills-h1">Project</span>
+        </h1>
+        <div className="container-project-container-first">
           <ContainerProjects />
         </div>
       </div>
-      <Contact />
+      <div className="footer-container">
+        <Contact />
+      </div>
     </div>
   );
 }

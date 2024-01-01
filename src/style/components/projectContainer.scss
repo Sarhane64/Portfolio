@@ -1,18 +1,99 @@
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 450px;
+  flex-shrink: 1;
+  padding: 0px 25px;
+}
+
+.first-project-top-container {
+  margin-top: 20px;
+}
+.first-project-top-container > :nth-child(1) {
+  padding: 25px 15px;
+}
+
+@media screen and (min-width: 1500px) {
+  .first-container-of-my-project {
+    gap: 65px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .projects-container {
+    gap: 25px;
+    width: 360px;
+  }
+}
+
+@media screen and (max-width: 1192px) {
+  .projects-container {
+    gap: 25px;
+    width: 330px;
+  }
+}
+
+@media screen and (max-width: 1017px) {
+  .first-container-of-my-project {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    gap: 30px;
+    flex-direction: column;
+  }
+  .projects-container {
+    width: 400px;
+  }
+}
+
+.main-container {
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+  h3 {
+    font-size: 1.6rem;
+  }
+  p {
+    font-size: 1.3rem;
+    color: var(--text-color);
+  }
+}
+
 .project-containers {
+  margin-top: 150px;
+  .title-skills-h1 {
+    background: linear-gradient(120deg, var(--solid-color), var(--text-color));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+  }
   h1 {
     text-align: center;
     padding: 55px 35px;
+    font-size: 3.8rem;
+  }
+  .first-container-of-my-project {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+
+    .button-project-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 11px;
+      button {
+        width: 48%;
+      }
+    }
   }
   .container-with-project {
     display: flex;
+  }
+  .container-project-container-first {
+    display: flex;
     justify-content: center;
-    width: 100%;
-    align-items: center;
-    .first-container-of-my-project {
-      display: flex;
-      justify-content: space-around;
-      width: 100%;
-      text-align: center;
-    }
   }
 }

@@ -3,7 +3,9 @@
   padding: 0;
   box-sizing: border-box;
   color: white;
+  font-family: "Ubuntu", sans-serif;
 }
+
 :root {
   --main-bg_color: #171625;
   --primary-color: #262a65;
@@ -11,9 +13,21 @@
   --text-color: #e0dffe;
   --border-color: #5958b1;
 }
+
 li {
   list-style: none;
 }
+
 body {
   background: var(--main-bg_color);
+}
+
+button {
+  background: var(--solid-color);
+  border-radius: 15px;
+  cursor: pointer;
+  border: none;
+  box-shadow: 3px 2px 10px 5px var(--solid-color);
+  padding: 10px 0;
+  font-size: 1.1rem;
 }

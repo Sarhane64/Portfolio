@@ -1,0 +1,37 @@
+.footer-container {
+  display: flex;
+  margin-bottom: 15px;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: row;
+  height: 300px;
+  .presentation-p {
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    p {
+      font-size: 1.2rem;
+    }
+  }
+  .left-bottom-part {
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+    button {
+      width: 9em;
+    }
+  }
+}
+
+@media screen and (max-width: 1020px) {
+  .left-bottom-part-contact {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    width: 300px;
+  }
+  .footer-container {
+    margin-top: 100px;
+  }
+}
