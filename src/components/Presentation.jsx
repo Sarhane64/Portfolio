@@ -13,7 +13,7 @@ function Presentation() {
           <h1>
             Théo<span className="title-skills-h1"> Sarhane</span>
           </h1>
-          <p>Developeur Junior Web.</p>
+          <p>Développeur Web Junior.</p>
           <div className="left-bottom-part">
             <button
               onClick={() =>

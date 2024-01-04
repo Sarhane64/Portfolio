@@ -9,15 +9,18 @@ function Home() {
       <div className="first-page">
         <Presentation />
       </div>
-      <div className="skills-containers">
+      <div className="skills-containers" id="skill-container-id">
         <Skills />
       </div>
       <div className="project-containers">
         <h1>
           {" "}
-          <span className="title-skills-h1">Project</span>
+          <span className="title-skills-h1">Projets</span>
         </h1>
-        <div className="container-project-container-first">
+        <div
+          className="container-project-container-first"
+          id="ContainerProjectId"
+        >
           <ContainerProjects />
         </div>
       </div>

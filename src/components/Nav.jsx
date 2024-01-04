@@ -9,8 +9,12 @@ function Nav() {
   return (
     <nav className="nav-container">
       <ul className="ul-nav-container">
-        <li>Skills</li>
-        <li>Projet</li>
+        <li>
+          <a href="#skill-container-id">Skills</a>
+        </li>
+        <li>
+          <a href="#ContainerProjectId">Projets</a>
+        </li>
         <li onClick={downloadCv}>Cv</li>
       </ul>
     </nav>

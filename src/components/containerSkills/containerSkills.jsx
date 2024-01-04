@@ -10,9 +10,9 @@ function ContainerProjects() {
           optionlink={" https://funny-faloodeh-983ace.netlify.app/"}
           optionIcon={<img src="/web.svg" width={35} alt="github" />}
           title={"Quiz"}
-          text={`Realisation d'un quiz, découverte
+          text={`Réalisation d'un quiz, découverte
            de la gestion du DOM, le travail en équipe 
-           avec github. `}
+           avec github.`}
           techno1={"Javascript"}
           techno2={"Html"}
           techno3={"Css"}
@@ -40,9 +40,9 @@ function ContainerProjects() {
             }
             optionIcon={<img src="/github.svg" width={35} alt="github" />}
             title={"Wildy-Gamy"}
-            text={`Plateforme de jeu. Au départ, trois jeux classiquex seront accessible 
-            (Memorize, Tic Tac Toe et Word Typer). L'objectif est de mettre en place un 
-            réseau social autour des performances de chaque joueurs pour créer de l'émulation .`}
+            text={`Plateforme de jeu. Au départ, trois jeux classiques seront accessibles 
+            (Memorize, Tic Tac ait et Word Typer). L'objectif est de mettre en place un 
+            réseau social autour des performances de chaque joueur pour créer de l'émulation.`}
             techno1={"React"}
             techno2={"Sql"}
             techno3={"Jwt"}

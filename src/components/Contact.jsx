@@ -3,7 +3,7 @@ function Contact() {
     <div className="footer-container">
       <div className="presentation-p">
         <h1>Théo Sarhane</h1>
-        <p>Developeur Junior Web</p>
+        <p>Développeur Web Junior</p>
       </div>
     </div>
   );
