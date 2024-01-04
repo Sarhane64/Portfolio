@@ -13,10 +13,10 @@ function Projet({
   return (
     <div className="projects-container">
       <div className="first-project-top-container">
-        <a href={link}>
+        <a href={link} rel="noreferrer" target="_blank">
           <span>{icone}</span>
         </a>
-        <a href={optionlink}>
+        <a href={optionlink} rel="noreferrer" target="_blank">
           <span>{optionIcon}</span>
         </a>
       </div>
