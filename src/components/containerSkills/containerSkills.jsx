@@ -5,17 +5,15 @@ function ContainerProjects() {
     <div className="container-with-project">
       <div className="first-container-of-my-project">
         <Projet
-          link={"https://github.com/Sarhane64/quizV1"}
+          link={"https://github.com/Sarhane64/crytpoAnalytics"}
           icone={<img src="/github.svg" width={35} alt="github" />}
-          optionlink={" https://funny-faloodeh-983ace.netlify.app/"}
+          optionlink={"https://cryptoanalytixtheosarhane.netlify.app/"}
           optionIcon={<img src="/web.svg" width={35} alt="url" />}
-          title={"Quiz"}
-          text={`Réalisation d'un quiz, découverte
-           de la gestion du DOM, le travail en équipe 
-           avec github.`}
-          techno1={"Javascript"}
-          techno2={"Html"}
-          techno3={"Css"}
+          title={"CryptoAnalitiX"}
+          text={`Développement d'une application permettant aux utilisateurs de suivre les informations sur diverses crypto-monnaies. L'application inclut un tableau détaillé avec de nombreuses cryptos, offrant la possibilité de trier les données selon divers critères tels que le prix, la capitalisation boursière, etc.`}
+          techno1={"React"}
+          techno2={"SCSS"}
+          techno3={"Recharts"}
         />
         <div className="second-container-of-my-project">
           <Projet
