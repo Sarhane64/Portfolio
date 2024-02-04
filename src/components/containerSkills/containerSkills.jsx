@@ -17,14 +17,15 @@ function ContainerProjects() {
         />
         <div className="second-container-of-my-project">
           <Projet
-            link={"https://github.com/Sarhane64/js-template-fullstack"}
+            link={"https://github.com/Sarhane64/pokedexInAngular"}
             icone={<img src="/github.svg" width={35} alt="github" />}
-            title={"Immobilier"}
-            text={`Application sur le thème de la vente immobilière,
-              le but est de mettre en place un CRUD et de la gestion d'une BDD .`}
-            techno1={"React"}
-            techno2={"Sql"}
-            techno3={"Express"}
+            optionlink={"https://voluble-dango-3045bd.netlify.app"}
+            optionIcon={<img src="/web.svg" width={35} alt="url" />}
+            title={"Pokedex"}
+            text={`Cette application immersive sur le thème Pokemon est conçue pour offrir une expérience captivante. Elle intègre une gestion avancée d'API (PokeAPI), offrant ainsi une plongée profonde dans les mondes des Pokémon. Le développement de l'application s'articule autour des technologies modernes telles qu'Angular et Typescript, offrant une base solide pour la création d'interfaces utilisateur dynamiques et réactives.`}
+            techno1={"Angular"}
+            techno2={"Typescript"}
+            techno3={"Rest Api"}
           />
         </div>
         <div className="third-container-of-my-project">

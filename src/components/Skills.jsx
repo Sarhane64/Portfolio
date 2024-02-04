@@ -42,6 +42,12 @@ function Skills() {
               </span>
               Sql
             </li>
+            <li>
+              <span>
+                <img width={40} src="/nodejs.svg" alt="node" />
+              </span>{" "}
+              Node
+            </li>
           </div>
         </div>
         <div className="skill">
@@ -52,12 +58,6 @@ function Skills() {
                 <img width={40} src="/github.svg" alt="github" />
               </span>{" "}
               git & github
-            </li>
-            <li>
-              <span>
-                <img width={40} src="/nodejs.svg" alt="node" />
-              </span>{" "}
-              Node
             </li>
           </div>
         </div>
