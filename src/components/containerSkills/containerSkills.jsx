@@ -34,10 +34,8 @@ function ContainerProjects() {
               "https://github.com/WildCodeSchool-2023-09/JS-RMT-React_If-Projet3-Wildy-Gamy"
             }
             icone={<img src="/github.svg" width={35} alt="github" />}
-            optionlink={
-              "https://www.figma.com/file/vQMghf027CqugVVYcP43qH/Projet-wildy-gamy?type=design&node-id=0-1&mode=design&t=81VP2wGUHmFWZ0SK-0"
-            }
-            optionIcon={<img src="/figma.svg" width={35} alt="figma" />}
+            optionlink={"https://wildy-gamy.remote-fr-3.wilders.dev/"}
+            optionIcon={<img src="/web.svg" width={35} alt="url" />}
             title={"Wildy-Gamy"}
             text={`Plateforme de jeu. Au départ, trois jeux classiques seront accessibles 
             (Memorize, Tic Tac ait et Word Typer). L'objectif est de mettre en place un 
